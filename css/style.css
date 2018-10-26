@@ -1,2 +1,173 @@
-body{background-color:red;
+body{
+
+	font-family: arial, helvetica, sans-serif;
+	font-size:15px;
+	line-height:1.5;
+	padding:0;
+	margin:0;
+	background-color:#ffffff;
+}
+.container{
+	width:90%;
+	margin:auto;
+	padding-bottom:-20px;
+	overflow:hidden;
+
+
+}
+
+header{
+
+
+
+	background:#ffffff;
+	color: #e8491d;
+	padding-top: 20px;
+	position:fixed;
+	width:100%;
+	border-bottom: black 3px solid;
+
+	margin-bottom:10px;
+
+
+
+	}
+
+	header a { color:black;
+	text-transform: uppercase;
+	font-size: 17px;
+	text-decoration: none;
+
+	}
+
+    header ul{ margin:0;
+	           padding:0;
+
+	 }
+
+	header li {
+
+	float: left;
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	 }
+
+
+
+
+	 header #branding{ float:left;
+
+	 }
+
+	 header #branding h1 {
+
+
+	 margin:0;
+	 font-family:Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+
+
+	 }
+
+	 header nav { float:right;
+	              margin-top: -45px;
+
+
+	 }
+
+
+	 header .highlight, header .current a{
+	color: #cccccc;
+	font-weight: bold;
+	text-align: center;
+}
+#showcase {
+  width: 590px;
+margin-top: ;
+padding-left: 38px;
+padding-top: 150px;
+
+}
+
+.twopics{ max-width: 640px;
+         text-align: :left;
+
+ }
+
+#showcase1 {
+  width: 235px;
+margin-top: ;
+padding-top: ;
+float: left;
+
+
+}
+#showcase2 {
+  max-width: 235px;
+margin-top: ;
+padding-left: ;
+float:right;
+
+}
+
+h1{font-size: 80px;
+   font-style: bold;}
+   h3{font-size:13px;}
+
+.box{
+
+ width: 590px;
+ margin:auto;
+ background-color: #fff;
+}
+
+p{ width: 535px;
+margin-top: 100px ;
+margin-left:px;
+ color: black;
+ text-align: left;
+font-family: helvetica;
+font-size:14px;
+padding-right: 0px;
+padding-left: 0px;
+float: left;
+}
+
+.text{ width: 535px;
+margin-top: 120px ;
+margin-left:-190px;
+ color: black;
+ text-align: left;
+font-family: helvetica;
+font-size:14px;
+padding-right: 0px;
+padding-left: 0px;
+float: left;}
+
+.imageright{ max-width: 324px;
+background-color: ;
+text-align: left;
+float:right;
+padding-right:324px;
+margin-top: -1400px;}
+
+.image{ max-width: 324px;
+background-color: ;
+text-align: left;
+float: right;
+padding-right:324px;
+margin-top: -500px;
+
+}
+
+.text1{ width: 300px;
+margin-top: 120px ;
+margin-left:0px;
+ color: black;
+ text-align: left;
+font-family: helvetica;
+font-size:14px;
+padding-right:324px;
+padding-left: 0px;
+float: right;
+margin-top: -1100px;}
 }
